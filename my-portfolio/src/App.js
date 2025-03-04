@@ -8,7 +8,7 @@ import Portfolio from "./components/Portfolio.js";
 import Experience from "./components/Experience.js";
 import Contact from "./components/Contact.js";
 import Passion from "./components/Passion.js";
-// import Footer from "./components/Footer.js";
+import Footer from "./components/Footer.js";
 
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
       <Experience />
       <Passion />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
       <SocialLinks />
 
     </>

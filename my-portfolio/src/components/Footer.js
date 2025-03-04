@@ -1,12 +1,8 @@
 // Footer.js
-import React, { useEffect } from 'react';
-import ReactGA from 'react-ga';
+// import React, { useEffect } from 'react';
+
 
 const Footer = () => {
-  useEffect(() => {
-    ReactGA.initialize('YOUR_TRACKING_ID'); // Replace with your actual ID
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  },);
 
   return (
     <footer className="w-full dark:bg-black text-center py-4 text-gray-600 dark:text-gray-400">

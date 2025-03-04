@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+//import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 
 const SocialLinks = () => {
@@ -24,7 +24,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30}/>
             </>
             ),
-            href: 'https://github.com/jamesafoyem',
+            href: 'https://github.com/afoyemlad',
             
         },
         {
@@ -35,19 +35,19 @@ const SocialLinks = () => {
             </>
             ),
             href: 'mailto:jamesafoyem@gmail.com',
-            
-        },
-        {
-            id: 4,
-            child: (
-            <>
-                Resume <BsFillPersonLinesFill size={30}/>
-            </>
-            ),
-            href: '/resume.pdf',
             style: 'rounded-br-md',
-            download: true
-        }
+        },
+        // {
+        //     id: 4,
+        //     child: (
+        //     <>
+        //         Resume <BsFillPersonLinesFill size={30}/>
+        //     </>
+        //     ),
+        //     href: '/resume.pdf',
+        //     style: 'rounded-br-md',
+        //     download: true
+        // }
     ]
     
   return (
