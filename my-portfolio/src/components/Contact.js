@@ -11,7 +11,7 @@ const Contact = () => {
               </div>
 
               <div className='flex justify-center item-center'>
-                  <form action="https://getform.io/f/azywglvb" method='POST' className='flex flex-col w-full md:1/2'>
+                  <form name='contactForm' action="https://getform.io/f/azywglvb" method='POST' netlify className='flex flex-col w-full md:1/2'>
                       <input type="text" name='name' placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md dark:text-white text-gray-800  border-gray-900 dark:border-gray-100' />
                       <input type="text" name='email' placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md dark:text-white text-gray-800  border-gray-900 dark:border-gray-100' />
                       <textarea name="message" rows="10" className='p-2 bg-transparent border-2 rounded-md dark:text-gray-50 text-gray-950 focus:outline-none  border-gray-900 dark:border-gray-100'></textarea>
