@@ -1,4 +1,5 @@
 import React from 'react'
+import Football from '../assets/football.mp4'
 
 const Passion = () => {
   return (
@@ -16,8 +17,14 @@ const Passion = () => {
             <div className='w-full bg-gray-200 dark:bg-gray-800 p-4 rounded-md'>
               <h2 className='text-2xl font-semibold text-center mb-4'>Football</h2>
               <div className="bg-gray-300 dark:bg-gray-700 h-64 w-full rounded-md flex justify-center items-center">
-                <p className="text-gray-800 dark:text-gray-200">Football Video Placeholder</p>
-              </div>
+                <iframe
+                  className="w-full h-full rounded-md"
+                  src={Football}
+                  title="Bass Guitar Video"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe></div>
             </div>
           </div>
 
@@ -28,7 +35,7 @@ const Passion = () => {
               <div className="bg-gray-300 dark:bg-gray-700 h-64 w-full rounded-md flex justify-center items-center overflow-hidden">
                 <iframe
                   className="w-full h-full rounded-md"
-                  src="https://youtu.be/eFi2PkVeNRw"
+                  src="https://www.youtube.com/embed/eFi2PkVeNRw"
                   title="Bass Guitar Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
