@@ -25,8 +25,15 @@ const Passion = () => {
           <div className='flex justify-center items-center'>
             <div className='w-full bg-gray-200 dark:bg-gray-800 p-4 rounded-md'>
               <h2 className='text-2xl font-semibold text-center mb-4'>Bass Guitar</h2>
-              <div className="bg-gray-300 dark:bg-gray-700 h-64 w-full rounded-md flex justify-center items-center">
-                <p className="text-gray-800 dark:text-gray-200">Bass Guitar Video Placeholder</p>
+              <div className="bg-gray-300 dark:bg-gray-700 h-64 w-full rounded-md flex justify-center items-center overflow-hidden">
+                <iframe
+                  className="w-full h-full rounded-md"
+                  src="https://youtu.be/eFi2PkVeNRw"
+                  title="Bass Guitar Video"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
           </div>
@@ -37,3 +44,4 @@ const Passion = () => {
 }
 
 export default Passion
+
